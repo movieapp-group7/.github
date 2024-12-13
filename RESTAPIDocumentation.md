@@ -24,7 +24,7 @@ Response:
   "email": "string"  
 }  
 400 Bad Request: Invalid input.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/1.png]
+![1][https://github.com/movieapp-group7/.github/blob/main/restapi/1.png]
 
 **2\. Login**  
 Endpoint: POST /login  
@@ -43,7 +43,7 @@ Response:
   "token": "string"  
 }  
 401 Unauthorized: Invalid credentials.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/2.png]
+![2][https://github.com/movieapp-group7/.github/blob/main/restapi/2.png]
 
 **3\. Logout**  
 Endpoint: POST /logout  
@@ -53,7 +53,7 @@ Response:
 {  
   "message": "Successfully logged out"  
 }  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/3.png]
+![3][https://github.com/movieapp-group7/.github/blob/main/restapi/3.png]
 
 4. **Delete a User**
 
@@ -69,7 +69,7 @@ Response:
   "message": "User account successfully deleted"  
 }  
 404 Not Found: User not found.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/4.png]
+![4][https://github.com/movieapp-group7/.github/blob/main/restapi/4.png]
 
 **5\. Get Account Information**  
 Endpoint: GET /:accountId/account  
@@ -93,7 +93,7 @@ Response:
     "birthday": "1988-08-23T21:00:00.000Z"  
   }  
 \]  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/5.png]
+![5][https://github.com/movieapp-group7/.github/blob/main/restapi/5.png]
 
 **6\. Edit Account Information**  
 Endpoint: PATCH /:accountId/editaccount  
@@ -110,7 +110,7 @@ Response:
 {  
   "message": "Account details updated successfully"  
 }  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/6.png]
+![6][https://github.com/movieapp-group7/.github/blob/main/restapi/6.png]
 
 **7\. Upload User Avatar**  
 Endpoint: POST /:accountId/uploadavatar  
@@ -122,7 +122,7 @@ Response:
   "base64Image":"string"  
 }
 
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/7.png]
+![7][https://github.com/movieapp-group7/.github/blob/main/restapi/7.png]
 
 **8\. Get User Avatar**  
 Endpoint: GET /:accountId/avatar  
@@ -133,13 +133,13 @@ Response:
   "base64Image":"string"  
 }  
 404：Bad Request  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/8.png]
+![8][https://github.com/movieapp-group7/.github/blob/main/restapi/8.png]
 
 **9\. Get Reviews by User**  
 Endpoint: GET /:accountId/reviews  
 Description: Get all reviews written by a user.  
 Response:200 OK: Returns a list of reviews.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/9.png]]
+![9][https://github.com/movieapp-group7/.github/blob/main/restapi/9.png]]
 
 **10\. Get Share Information**  
 Endpoint: GET /share/:accountId  
@@ -150,7 +150,7 @@ Response:
   "share\_url": "string",  
   "is\_public":"boolean"  
 }  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/10.png]
+![10][https://github.com/movieapp-group7/.github/blob/main/restapi/10.png]
 
 **11\. Update Share Visibility**  
 Endpoint: PUT /share/:accountId/visibility  
@@ -164,7 +164,7 @@ Response:
 {  
   "message": "Share visibility updated to public/private"  
 }  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/11.png]
+![11][https://github.com/movieapp-group7/.github/blob/main/restapi/11.png]
 
 **12\. Get Favorites by Share URL**  
 Endpoint: GET /share/public/:shareUrl  
@@ -181,7 +181,7 @@ Response:
   \]  
 }  
 403 Forbidden  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/12.png]
+![12][https://github.com/movieapp-group7/.github/blob/main/restapi/12.png]
 
 **13\. Get All Public Shares**  
 Endpoint: GET /shares  
@@ -198,7 +198,7 @@ Response:
     "share\_url": "string"  
   }  
 \]  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/13.png]
+![13][https://github.com/movieapp-group7/.github/blob/main/restapi/13.png]
 
 **Movie Router:**  
 **1\. Get Reviews by Movie**  
@@ -219,7 +219,7 @@ Response:
   }  
 \]  
 500 Internal Server Error: An error occurred.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/14.png]
+![14][https://github.com/movieapp-group7/.github/blob/main/restapi/14.png]
 
 **2\. Post a New Review**  
 Endpoint: POST /newreview  
@@ -243,7 +243,7 @@ Response:
 }  
 400 Bad Request: Missing required fields.  
 500 Internal Server Error: An error occurred.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/15.png]
+![15][https://github.com/movieapp-group7/.github/blob/main/restapi/15.png]
 
 **3\. Get Average Rating**  
 Endpoint: GET /:movieId/rating  
@@ -256,7 +256,7 @@ Response:
 "averagerating": "number"  
 }  
 500 Internal Server Error: An error occurred.  
-![][image16]
+![16][image16]
 
 **4\. Add or Remove a Movie from Favorites**  
 Endpoint: POST /favorites  
@@ -286,7 +286,8 @@ Response:
 409 Conflict: Movie is already in favorites.  
 404 Not Found: Movie not found in favorites.  
 500 Internal Server Error: An error occurred.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/17.png]![][https://github.com/movieapp-group7/.github/blob/main/restapi/18.png]
+![17][https://github.com/movieapp-group7/.github/blob/main/restapi/17.png]
+![18][https://github.com/movieapp-group7/.github/blob/main/restapi/18.png]
 
 **5\. Get Favorite Status**  
 Endpoint: GET /favorites/:accountId/:movieId  
@@ -298,7 +299,7 @@ Response:200 OK: Returns the favorite status
   "isFavorite": "boolean"  
 }  
 500 Internal Server Error: An error occurred  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/19.png]
+![19][https://github.com/movieapp-group7/.github/blob/main/restapi/19.png]
 
 **6\. Get All Favorites by User**  
 Endpoint: GET /favorites/:accountId  
@@ -311,7 +312,7 @@ Response:200 OK: Returns a list of favorite movies
   }  
 \]  
 500 Internal Server Error: An error occurred.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/20.png]
+![20][https://github.com/movieapp-group7/.github/blob/main/restapi/20.png]
 
 **Group Router**  
 **1\. Get All Groups**  
@@ -329,7 +330,7 @@ Response:200 OK: Returns a list of groups
 \]  
 404 Not Found  
 500 Internal Server Error: Failed to fetch groups.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/21.png]
+![21][https://github.com/movieapp-group7/.github/blob/main/restapi/21.png]
 
 **2\. Create a New Group**  
 Endpoint: POST /newgroup  
@@ -353,7 +354,7 @@ Copy code
 }  
 400 Bad Request: Missing required fields or group name already exists.  
 500 Internal Server Error: Failed to create group.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/22.png]
+![22][https://github.com/movieapp-group7/.github/blob/main/restapi/22.png]
 
 **3\. Get Group Details**  
 Endpoint: GET /:groupId  
@@ -394,7 +395,7 @@ Copy code
 }  
 404 Not Found: Group not found.  
 500 Internal Server Error: Failed to fetch group details.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/23.png]
+![23][https://github.com/movieapp-group7/.github/blob/main/restapi/23.png]
 
 **4\. Delete a Group**  
 Endpoint: DELETE /:groupId/delete  
@@ -406,7 +407,7 @@ Copy code
   "message": "Group deleted successfully"  
 }  
 500 Internal Server Error: Failed to delete group.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/24.png]
+![24][https://github.com/movieapp-group7/.github/blob/main/restapi/24.png]
 
 5\. Join a Group  
 Endpoint: POST /:groupId/join  
@@ -422,7 +423,7 @@ Copy code
   "message": "Join request sent"  
 }  
 500 Internal Server Error: Failed to send join request.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/25.png]
+![25][https://github.com/movieapp-group7/.github/blob/main/restapi/25.png]
 
 **6\. Get Join Requests**  
 Endpoint: GET /:groupId/requests  
@@ -435,7 +436,7 @@ Response:200 OK: Returns a list of join requests
   }  
 \]  
 500 Internal Server Error: Failed to fetch join requests.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/26.png]
+![26][https://github.com/movieapp-group7/.github/blob/main/restapi/26.png]
 
 **7\. Manage Join Requests**  
 Endpoint: PATCH /:groupId/members/:accountId  
@@ -466,7 +467,7 @@ Copy code
   "message": "Member removed successfully"  
 }  
 500 Internal Server Error: Failed to remove member.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/27.png]
+![27][https://github.com/movieapp-group7/.github/blob/main/restapi/27.png]
 
 **9\. Edit Group Details**  
 Endpoint: PATCH /:groupId  
@@ -482,7 +483,7 @@ Response:200 OK: Group details updated successfully
   "message": "Group details updated successfully"  
 }  
 500 Internal Server Error: Failed to update group details.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/28.png]
+![28][https://github.com/movieapp-group7/.github/blob/main/restapi/28.png]
 
 **10\. Upload Group Image**  
 Endpoint: POST /:groupId/uploadimage  
@@ -505,7 +506,7 @@ Response:200 OK: Returns the image in Base64 format.
 }  
 404 Not Found: Image not found.  
 500 Internal Server Error  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/29.png]
+![29][https://github.com/movieapp-group7/.github/blob/main/restapi/29.png]
 
 **12\. Leave a Group**  
 Endpoint: DELETE /:groupId/members/:userId/leave  
@@ -517,7 +518,7 @@ Response:200 OK: Successfully left the group.
   "message": "You have successfully left the group"  
 }  
 500 Internal Server Error: Failed to leave group.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/30.png]
+![30][https://github.com/movieapp-group7/.github/blob/main/restapi/30.png]
 
 **13\. Get User Groups**  
 Endpoint: GET /user/:userId  
@@ -540,7 +541,7 @@ Copy code
   }  
 \]  
 500 Internal Server Error: Failed to fetch user groups.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/31.png]
+![31][https://github.com/movieapp-group7/.github/blob/main/restapi/31.png]
 
 **14\. Add Content to Group**  
 Endpoint: POST /:groupId/addmovie  
@@ -554,7 +555,7 @@ Request Body
 }  
 Response:201 Created: Content added to the group  
 500 Internal Server Error: Failed to add content.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/32.png]
+![32][https://github.com/movieapp-group7/.github/blob/main/restapi/32.png]
 
 **15\. Get Group Content**  
 Endpoint: GET /:groupId/movies  
@@ -575,7 +576,7 @@ Copy code
   }  
 \]  
 500 Internal Server Error: Failed to fetch group content.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/33.png]
+![33][https://github.com/movieapp-group7/.github/blob/main/restapi/33.png]
 
 **16\. Add Showtime to Group**  
 Endpoint: POST /:groupId/addshowtime  
@@ -602,7 +603,7 @@ Copy code
 "created\_at": "string (ISO format)"  
 }  
 500 Internal Server Error: Failed to add showtime.  
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/34.png]
+![34][https://github.com/movieapp-group7/.github/blob/main/restapi/34.png]
 
 **17\. Get Group Showtimes**  
 Endpoint: GET /:groupId/showtimes  
@@ -624,4 +625,4 @@ Copy code
   }  
 \]  
 500 Internal Server Error: Failed   
-![][https://github.com/movieapp-group7/.github/blob/main/restapi/35.png]
+![35][https://github.com/movieapp-group7/.github/blob/main/restapi/35.png]
