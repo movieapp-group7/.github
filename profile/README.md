@@ -19,19 +19,14 @@ Project in Oulu University of Applied Sciences, taking place from October to Dec
 
 1. Programming language Javascript and its libraries
 - Node.js, React.js
-
 2. Cloud Services
 - Azure, Supabase / AWS North
-
 3. Database
 - PostgreSQL
-
 4. Version Control
 - Git, GitHub
-
 5. Project Management Methodology
 - Agile, Kanban
-
 6. Team members and responsibilities
 - Yiling Chen : Full Stack development, database design, TMDB API data
 - Eveliina Hampus : DevOps, Finnkino API data, Back End testing development, documentation
