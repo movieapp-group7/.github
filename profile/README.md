@@ -79,5 +79,5 @@ https://github.com/movieapp-group7/server`
 View on internet
 Application is deployed on Azure, and will be viewable in:
 
+[https://wonderful-sky-0dd374d10.4.azurestaticapps.net/](https://wonderful-sky-0dd374d10.4.azurestaticapps.net/)
 
-https://wonderful-sky-0dd374d10.4.azurestaticapps.net/
